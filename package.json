@@ -1,0 +1,19 @@
+{
+  "name": "yukimusic",
+  "version": "1.0.0",
+  "description": "a music application provides free music download and listening service",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuki",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.2.0",
+    "electron": "^28.1.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
